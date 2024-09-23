@@ -7,22 +7,22 @@ services:
   dvwa:
     image: vulnerables/web-dvwa
     ports:
-      - "8081:80"
+      - "0.0.0.0:8081:80"
 
   juice-shop:
     image: bkimminich/juice-shop
     ports:
-      - "8082:3000"
+      - "0.0.0.0:8082:3000"
 
   mutillidae:
     image: citizenstig/nowasp
     ports:
-      - "8083:80"
+      - "0.0.0.0:8083:80"
 
   webgoat:
       image: webgoat/webgoat-8.0
       ports:
-        - "8084:8080"
+        - "0.0.0.0:8084:8080"
       environment:
         TZ: "America/New_York"
 
@@ -30,7 +30,7 @@ services:
   bwapp:
     image: raesene/bwapp
     ports:
-      - "8085:80"
+      - "0.0.0.0:8085:80"
 
   bwapp-db:
     image: mysql:5.7
@@ -41,7 +41,7 @@ services:
   hackazon:
     image: pierrickv/hackazon
     ports:
-      - "8086:80"
+      - "0.0.0.0:8086:80"
    
 
   hackazon-db:
@@ -53,4 +53,4 @@ services:
   xvwa:
     image: bitnetsecdave/xvwa
     ports:
-      - "8087:80"
+      - "0.0.0.0:8087:80"
