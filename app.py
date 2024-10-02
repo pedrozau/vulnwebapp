@@ -13,6 +13,7 @@ def index():
         {"name": "bWAPP", "port": 8085},
         {"name": "Hackazon", "port": 8086},
         {"name": "XVWA", "port": 8087},
+    
     ]
 
     # Gera as URLs dinamicamente com base no host atual

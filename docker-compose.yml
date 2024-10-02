@@ -39,7 +39,7 @@ services:
       MYSQL_DATABASE: bwapp
 
   hackazon:
-    image: pierrickv/hackazon
+    image: icompman/hackazon
     ports:
       - "0.0.0.0:8086:80"
    
