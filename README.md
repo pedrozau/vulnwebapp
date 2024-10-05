@@ -36,7 +36,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/vulnerable-apps.git
+   git clone https://github.com/pedrozau/vulnwebapp/
 
 2. Navigate to the project directory:
 
@@ -94,4 +94,4 @@ Distributed under the MIT License. See LICENSE for more information.
 
 Your Name - your.email@example.com
 
-Project Link: https://github.com/yourusername/vulnerable-apps
+Project Link: https://github.com/pedrozau/vulnwebapp/
